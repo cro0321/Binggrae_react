@@ -11,13 +11,11 @@ function Main() {
   return (
     <>
 
-   <div className="section_bg">
+    <SectionBg>
     <TopHeader/>
-    <Header/>
     <Nav/>
-    <SectionBg/>
     <Search/>
-    </div>
+    </SectionBg>
 
     </>
   )

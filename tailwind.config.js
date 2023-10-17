@@ -14,9 +14,9 @@ module.exports = {
   content: ["./src/**/*.{js,ts}"],
   theme: {
    screens : {
-    'sm': {'max': '768'},
-    'md': {'min': '769', 'max': '1024'},
-    'lg': {'min': '1025'}
+    'sm': {'max': '768px'},
+    'md': {'min': '769px', 'max': '1024px'},
+    'lg': {'min': '1025px'}
    },
    extend: {},
  },

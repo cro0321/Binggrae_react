@@ -35,7 +35,7 @@ function Nav() {
   
 
   return (
-    <div className="max-w-full">
+    <div className="max-w-full  ">
       <div className="max-w-full box-border flex items-start justify-between mx-auto px-[80px] py-[40px] relative">
           <div className="max-w-full align-top z-[101]">
          <NavLink><img className="max-w-full align-top " src="/Images/bing-logo-top.png" alt="빙그레 로고" /></NavLink> 
@@ -43,7 +43,7 @@ function Nav() {
   
 
       <div className="absolute top-0 left-1/2 translate-x-[-50%] z-[20] block">
-      <ul className="flex_center justify-end whitespace-nowrap">
+      <ul className="flex_center justify-end whitespace-nowrap md:opacity-0">
       {
         data.map((e,i)=>{
           return(
