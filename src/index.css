@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{margin: 0; padding: 0; 
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.6;
+  line-height: 30px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-style: normal;
+  color: #1f1f1f;
+  letter-spacing: -0.09em;
+}
+a{text-decoration: none; color: black;}
+ul, ol{list-style: none;}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  .poppins{font-family: 'Poppins'; font-weight: bold; font-size: 16px; letter-spacing: -0.5px;}
+
+
+@font-face {
+  font-family: 'Binggrae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title{font-family: 'Binggrae';}
+
+.section_bg {
+  max-width: 100%;
+  background-size: cover;
+  background: url("../public/Images/pc_bing-main_logo01.jpg") no-repeat center center;
+  z-index: -10;
+  
+}
+
+.flex_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    right: 36%;
+    transform: translate(-50%,-50%);
+}
+
+.shadow{
+  box-shadow: 0px 5px 24.3px 2.7px rgba(0, 0, 0, 0.09);
+}
