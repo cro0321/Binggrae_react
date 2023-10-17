@@ -11,11 +11,12 @@ function Main() {
   return (
     <>
 
-    <SectionBg>
+
+    <SectionBg/>
     <TopHeader/>
     <Nav/>
     <Search/>
-    </SectionBg>
+   
 
     </>
   )

@@ -34,7 +34,7 @@ ul, ol{list-style: none;}
 .section_bg {
   
   background-size: cover;
-  background: url("../public/Images/pc_bing-main_logo01.jpg") no-repeat center center;
+  background: url("../public/Images/pc_bing-main_logo01.jpg") no-repeat center center;;
 
   
 }
